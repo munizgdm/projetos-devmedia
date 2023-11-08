@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topo, .rodape {
+    background-color: #1d6e4d;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 16px 0;
+    font-size: 20px;
+}
+
+.area {
+    width: calc(100% - 70px);
+    margin: 20px 35px;
+}
+
+.apresentacao img, .area p, .area-tres-imagens {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.area-tres-imagens {
+    display: flex;
+}
+
+.galeria img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
+
+
