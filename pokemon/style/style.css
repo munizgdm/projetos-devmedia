@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* TOPO E RODAPÉ  */
+
+.topo, .rodape{
+    width: 100%;
+    height: 60px;
+    background-color: #f97100;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.topo, .rodape span {
+    padding-top: 17px;
+}
+
+/* IMAGEM DA CAPA */
+
+.image-capa {
+    width: 100%;
+}
+
+/* CONTEÚDO SEÇÃO 1*/
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conteudo-secao1 {
+    margin: 0 auto;
+}
+
+.conteudo-secao1 p{
+    line-height: 30px;
+    margin: 30px 0 30px 0;
+}
+
+/* CONTEÚDO SEÇÃO 2*/
+
+
+/* CONTEUDO SEÇÃO 2 CARDS  */
+
+.conteudo-secao2 {
+    display: flex;
+    gap: 30px;
+}
+
+.conteudo-secao2-card {
+    background-color:  #ffb500;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 15px 12px #ed8317;
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-secao2-card-info {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.conteudo-secao2-card h2 {
+    font-size: 25px;
+}
+
+.conteudo-secao2-card img{
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;    
+}
+
+/*  CONTEUDO IMAGENS  */
+
+.conteudo p {
+    padding-top: 5px;
+}
+
+.conteudo-imagem {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.conteudo-imagem img {
+    width: 315px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #939393;
+}
+
+.links {
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
