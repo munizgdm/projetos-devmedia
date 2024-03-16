@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TOPO DA PÁGINA */
+
+.topo {
+    background-color: #23b4eb;
+    text-align: center;
+    height: 48px;
+}
+
+img {
+    width: 100%;
+}
+
+/* LINKS */
+
+.links {
+    padding: 14px 0;
+}
+
+.links li {
+    display: inline;
+    padding: 0 12px;
+}
+
+.links li a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.imagem-topo {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+/* AREA */
+
+
+.conteudo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.area h2 {
+    padding: 25px 0;
+}
+
+.area p {
+    padding: 5px 0;
+    line-height: 25px;
+}
+
+.area img {
+    padding: 15px 0;
+}
+
+/*  CONTATO  */
+
+.area li {
+    display: inline;
+    padding: 0 1px;
+   
+}
+
+.area li a {
+    background-color: #23b4eb;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.area ul {
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
